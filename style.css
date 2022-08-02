@@ -498,11 +498,11 @@ fill: #ffffff;
     transition: opacity var(--transition-duration-and-func), visibility var(--transition-duration-and-func);
 }
 
-/* .backdrop.is-hidden{
+.backdrop.is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-} */
+}
 
 .modal{
     position: absolute;
