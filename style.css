@@ -28,6 +28,7 @@ img{
 }
 button{
     cursor: pointer;
+    border: none;
 }
 
 
@@ -296,6 +297,10 @@ color: #757575;
     flex-basis: calc((100%-90px/4 ));
 } */
 
+.work-ul-li{
+    background-color: #FFFFFF;
+}
+
 .work-h-p{
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
@@ -391,7 +396,11 @@ fill: #2196F3;
     background-color: #FFFFFF;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    transition: background-color var(--transition-duration-and-func);
+    transition: border var(--transition-duration-and-func);
+}
+.customers-social-list-link:hover ,
+.customers-social-list-link:focus {
+    border: 1px solid #2196F3 ;
 }
 
 
@@ -477,7 +486,7 @@ color: #FFFFFF;
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    transition: fill var(--transition-duration-and-func);
+    transition: background-color var(--transition-duration-and-func);
 }
 .footer-social-list-link:hover .work-social-list-icon,
 .footer-social-list-link:focus .work-social-list-icon{
@@ -570,13 +579,19 @@ margin-bottom: 50px;
 
 
 .list-portfolio-all{
-    background: #2196F3;
-    color: #ffffff;
-    border-radius: 4px;
-    padding: 6px 22px ;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+background: #2196F3;
+color: #ffffff;
+border-radius: 4px;
+padding: 6px 22px ;
 }
 
 .portfolio-list-li{
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03em;
 background: #F5F4FA;
 border-radius: 4px;
 padding: 6px 22px ;
@@ -603,7 +618,7 @@ background-color var(--transition-duration-and-func);
 }
 
 .portfolio-element-li{
-    
+
 }
 
 .portfolio-team-img-p{
